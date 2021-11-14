@@ -19,3 +19,6 @@ span {
     font-family:'Franklin Gothic Medium', sans-serif;
     font-weight: bold;
 }
+li{
+    display: inline;
+}
