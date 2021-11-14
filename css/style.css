@@ -1,0 +1,21 @@
+h1{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: darkslateblue;
+    color:floralwhite;
+    padding: 20px;
+}
+
+body{
+    background-color: lightsteelblue;
+    color: darkslateblue;
+}
+section {
+    padding-top: 30px;
+}
+span {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-weight: bold;
+}
