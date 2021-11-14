@@ -82,3 +82,27 @@ Cloud image styling
     width: 400px;
     transition: 3s;
 }
+
+/*===================================
+Meatball animation
+====================================*/
+
+.meatballs{
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    left: -40px;
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+    from {
+       transform: translateX(-400px);
+    }
+    to {
+        transform: translateX(0);
+    }
+
+}
