@@ -16,6 +16,7 @@ header{
     background: darkslateblue;
     color:floralwhite;
     padding: 30px;
+    text-align:center;
 }
 
 body{
@@ -44,6 +45,10 @@ h2{
     margin-bottom: 10px;
 }
 
+.shopping-list{
+    margin-top: 70px;
+}
+
 /*===================================
 Position styling
 ====================================*/
@@ -62,7 +67,18 @@ Position styling
     max-width: 500px;
 }
 
+/*===================================
+Cloud image styling
+====================================*/
+
 .cloud-image{
     float: left;
-    margin: 0 20px 100px 20px;
+    margin: 0 20px 20px 20px;
+    width: 300px;
+    transition: 3s;
+}
+
+.cloud-image:hover{
+    width: 400px;
+    transition: 3s;
 }
